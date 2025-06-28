@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayeredApp.Domain", "LayeredApp.Domain\LayeredApp.Domain.csproj", "{2704B042-2B0E-4158-AA73-BAEC730F8DF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayeredApp.Infrastructure", "LayeredApp.Infrastructure\LayeredApp.Infrastructure.csproj", "{AC4C229F-D82F-4785-BF17-6AB7C7CAB928}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2704B042-2B0E-4158-AA73-BAEC730F8DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2704B042-2B0E-4158-AA73-BAEC730F8DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2704B042-2B0E-4158-AA73-BAEC730F8DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2704B042-2B0E-4158-AA73-BAEC730F8DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC4C229F-D82F-4785-BF17-6AB7C7CAB928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4C229F-D82F-4785-BF17-6AB7C7CAB928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4C229F-D82F-4785-BF17-6AB7C7CAB928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4C229F-D82F-4785-BF17-6AB7C7CAB928}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {906B5B83-C3E9-491C-9921-51BF70293CC2}
+	EndGlobalSection
+EndGlobal

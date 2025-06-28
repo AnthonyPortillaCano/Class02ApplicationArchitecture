@@ -1,0 +1,15 @@
+C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Infrastructure\bin\Debug\net9.0\LayeredApp.Infrastructure.deps.json
+C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Infrastructure\bin\Debug\net9.0\LayeredApp.Infrastructure.dll
+C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Infrastructure\bin\Debug\net9.0\LayeredApp.Infrastructure.pdb
+C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Infrastructure\bin\Debug\net9.0\LayeredApp.Domain.dll
+C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Infrastructure\bin\Debug\net9.0\LayeredApp.Domain.pdb
+C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Infrastructure\obj\Debug\net9.0\LayeredApp.Infrastructure.csproj.AssemblyReference.cache
+C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Infrastructure\obj\Debug\net9.0\LayeredApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Infrastructure\obj\Debug\net9.0\LayeredApp.Infrastructure.AssemblyInfoInputs.cache
+C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Infrastructure\obj\Debug\net9.0\LayeredApp.Infrastructure.AssemblyInfo.cs
+C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Infrastructure\obj\Debug\net9.0\LayeredApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Infrastructure\obj\Debug\net9.0\LayeredA.277DF914.Up2Date
+C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Infrastructure\obj\Debug\net9.0\LayeredApp.Infrastructure.dll
+C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Infrastructure\obj\Debug\net9.0\refint\LayeredApp.Infrastructure.dll
+C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Infrastructure\obj\Debug\net9.0\LayeredApp.Infrastructure.pdb
+C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Infrastructure\obj\Debug\net9.0\ref\LayeredApp.Infrastructure.dll
