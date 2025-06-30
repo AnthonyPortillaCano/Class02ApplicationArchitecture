@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\CURSOSNETPERSONAL2025\\Class02\\Application-Design-and-Layered-Architecture\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5CEE66E1-2D60-4A73-9EE5-E4BAF91E1532}|LayeredApp.Application\\LayeredApp.Application.csproj|c:\\cursosnetpersonal2025\\class02\\application-design-and-layered-architecture\\layeredapp.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CEE66E1-2D60-4A73-9EE5-E4BAF91E1532}|LayeredApp.Application\\LayeredApp.Application.csproj|solutionrelative:layeredapp.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AC4C229F-D82F-4785-BF17-6AB7C7CAB928}|LayeredApp.Infrastructure\\LayeredApp.Infrastructure.csproj|c:\\cursosnetpersonal2025\\class02\\application-design-and-layered-architecture\\layeredapp.infrastructure\\repositories\\inmemoryproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC4C229F-D82F-4785-BF17-6AB7C7CAB928}|LayeredApp.Infrastructure\\LayeredApp.Infrastructure.csproj|solutionrelative:layeredapp.infrastructure\\repositories\\inmemoryproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2704B042-2B0E-4158-AA73-BAEC730F8DF4}|LayeredApp.Domain\\LayeredApp.Domain.csproj|c:\\cursosnetpersonal2025\\class02\\application-design-and-layered-architecture\\layeredapp.domain\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2704B042-2B0E-4158-AA73-BAEC730F8DF4}|LayeredApp.Domain\\LayeredApp.Domain.csproj|solutionrelative:layeredapp.domain\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79EF01C7-A8B8-4B38-95A8-E05E4E786642}|LayeredApp.Presentation\\LayeredApp.Presentation.csproj|c:\\cursosnetpersonal2025\\class02\\application-design-and-layered-architecture\\layeredapp.presentation\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79EF01C7-A8B8-4B38-95A8-E05E4E786642}|LayeredApp.Presentation\\LayeredApp.Presentation.csproj|solutionrelative:layeredapp.presentation\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CEE66E1-2D60-4A73-9EE5-E4BAF91E1532}|LayeredApp.Application\\LayeredApp.Application.csproj|c:\\cursosnetpersonal2025\\class02\\application-design-and-layered-architecture\\layeredapp.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CEE66E1-2D60-4A73-9EE5-E4BAF91E1532}|LayeredApp.Application\\LayeredApp.Application.csproj|solutionrelative:layeredapp.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79EF01C7-A8B8-4B38-95A8-E05E4E786642}|LayeredApp.Presentation\\LayeredApp.Presentation.csproj|c:\\cursosnetpersonal2025\\class02\\application-design-and-layered-architecture\\layeredapp.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79EF01C7-A8B8-4B38-95A8-E05E4E786642}|LayeredApp.Presentation\\LayeredApp.Presentation.csproj|solutionrelative:layeredapp.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CEE66E1-2D60-4A73-9EE5-E4BAF91E1532}|LayeredApp.Application\\LayeredApp.Application.csproj|c:\\cursosnetpersonal2025\\class02\\application-design-and-layered-architecture\\layeredapp.application\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CEE66E1-2D60-4A73-9EE5-E4BAF91E1532}|LayeredApp.Application\\LayeredApp.Application.csproj|solutionrelative:layeredapp.application\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2704B042-2B0E-4158-AA73-BAEC730F8DF4}|LayeredApp.Domain\\LayeredApp.Domain.csproj|c:\\cursosnetpersonal2025\\class02\\application-design-and-layered-architecture\\layeredapp.domain\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2704B042-2B0E-4158-AA73-BAEC730F8DF4}|LayeredApp.Domain\\LayeredApp.Domain.csproj|solutionrelative:layeredapp.domain\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2704B042-2B0E-4158-AA73-BAEC730F8DF4}|LayeredApp.Domain\\LayeredApp.Domain.csproj|c:\\cursosnetpersonal2025\\class02\\application-design-and-layered-architecture\\layeredapp.domain\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2704B042-2B0E-4158-AA73-BAEC730F8DF4}|LayeredApp.Domain\\LayeredApp.Domain.csproj|solutionrelative:layeredapp.domain\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2704B042-2B0E-4158-AA73-BAEC730F8DF4}|LayeredApp.Domain\\LayeredApp.Domain.csproj|c:\\cursosnetpersonal2025\\class02\\application-design-and-layered-architecture\\layeredapp.domain\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,37 +46,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\CURSOSNETPERSONAL2025\\Class02\\Application-Design-and-Layered-Architecture\\LayeredApp.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "LayeredApp.Presentation\\Program.cs",
+              "ToolTip": "C:\\CURSOSNETPERSONAL2025\\Class02\\Application-Design-and-Layered-Architecture\\LayeredApp.Presentation\\Program.cs",
+              "RelativeToolTip": "LayeredApp.Presentation\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T04:07:29.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\CURSOSNETPERSONAL2025\\Class02\\Application-Design-and-Layered-Architecture\\LayeredApp.Presentation\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "LayeredApp.Presentation\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\CURSOSNETPERSONAL2025\\Class02\\Application-Design-and-Layered-Architecture\\LayeredApp.Presentation\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "LayeredApp.Presentation\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAIA+wCgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T04:04:27.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\CURSOSNETPERSONAL2025\\Class02\\Application-Design-and-Layered-Architecture\\LayeredApp.Application\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "LayeredApp.Application\\Services\\IProductService.cs",
+              "ToolTip": "C:\\CURSOSNETPERSONAL2025\\Class02\\Application-Design-and-Layered-Architecture\\LayeredApp.Application\\Services\\IProductService.cs",
+              "RelativeToolTip": "LayeredApp.Application\\Services\\IProductService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T23:46:39.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\CURSOSNETPERSONAL2025\\Class02\\Application-Design-and-Layered-Architecture\\LayeredApp.Application\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "LayeredApp.Application\\DTOs\\ProductDto.cs",
+              "ToolTip": "C:\\CURSOSNETPERSONAL2025\\Class02\\Application-Design-and-Layered-Architecture\\LayeredApp.Application\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "LayeredApp.Application\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAArwCwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T23:44:34.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\CURSOSNETPERSONAL2025\\Class02\\Application-Design-and-Layered-Architecture\\LayeredApp.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "LayeredApp.Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\CURSOSNETPERSONAL2025\\Class02\\Application-Design-and-Layered-Architecture\\LayeredApp.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "LayeredApp.Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAvwEQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T23:35:53.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "InMemoryProductRepository.cs",
               "DocumentMoniker": "C:\\CURSOSNETPERSONAL2025\\Class02\\Application-Design-and-Layered-Architecture\\LayeredApp.Infrastructure\\Repositories\\InMemoryProductRepository.cs",
               "RelativeDocumentMoniker": "LayeredApp.Infrastructure\\Repositories\\InMemoryProductRepository.cs",
               "ToolTip": "C:\\CURSOSNETPERSONAL2025\\Class02\\Application-Design-and-Layered-Architecture\\LayeredApp.Infrastructure\\Repositories\\InMemoryProductRepository.cs",
               "RelativeToolTip": "LayeredApp.Infrastructure\\Repositories\\InMemoryProductRepository.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAA+wEsAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAArwEYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-26T19:40:16.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\CURSOSNETPERSONAL2025\\Class02\\Application-Design-and-Layered-Architecture\\LayeredApp.Domain\\IProductRepository.cs",
               "RelativeDocumentMoniker": "LayeredApp.Domain\\IProductRepository.cs",
               "ToolTip": "C:\\CURSOSNETPERSONAL2025\\Class02\\Application-Design-and-Layered-Architecture\\LayeredApp.Domain\\IProductRepository.cs",
               "RelativeToolTip": "LayeredApp.Domain\\IProductRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDMAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCAAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-26T19:22:25.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Money.cs",
               "DocumentMoniker": "C:\\CURSOSNETPERSONAL2025\\Class02\\Application-Design-and-Layered-Architecture\\LayeredApp.Domain\\Money.cs",
               "RelativeDocumentMoniker": "LayeredApp.Domain\\Money.cs",
@@ -69,13 +154,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\CURSOSNETPERSONAL2025\\Class02\\Application-Design-and-Layered-Architecture\\LayeredApp.Domain\\Product.cs",
               "RelativeDocumentMoniker": "LayeredApp.Domain\\Product.cs",
               "ToolTip": "C:\\CURSOSNETPERSONAL2025\\Class02\\Application-Design-and-Layered-Architecture\\LayeredApp.Domain\\Product.cs",
               "RelativeToolTip": "LayeredApp.Domain\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAkwDoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-26T18:26:18.455Z",
               "EditorCaption": ""

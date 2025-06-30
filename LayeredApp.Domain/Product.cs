@@ -24,9 +24,9 @@ namespace LayeredApp.Domain
         public int StockQuantity { get; private set; }
 
         public bool IsActive { get; private set; }
-        public DateTime CreateAt { get; private set; }
+        public DateTime CreatedAt { get; private set; }
 
-        public DateTime UpdateAt { get; private set; }
+        public DateTime UpdatedAt { get; private set; }
 
         //DDD PRINCIPLE: PRIVATE CONSTRUCTOR FOR EF CORE
         // This allows Entity Framework to create instances
@@ -56,7 +56,7 @@ namespace LayeredApp.Domain
             Price=new Money(price,currency);
             StockQuantity = stockQuantity;
             IsActive = true;
-            CreateAt = DateTime.UtcNow;
+            CreatedAt = DateTime.UtcNow;
         }
 
         //Overload for using Money directly
@@ -78,7 +78,7 @@ namespace LayeredApp.Domain
             Price=price; 
             StockQuantity = stockQuantity;
             IsActive = true;
-            CreateAt = DateTime.UtcNow;
+            CreatedAt = DateTime.UtcNow;
 
         }
 
@@ -105,7 +105,7 @@ namespace LayeredApp.Domain
             Name = name.Trim();
             Description = description.Trim();
             Price=new Money(price, currency);
-            UpdateAt= DateTime.UtcNow;
+            UpdatedAt= DateTime.UtcNow;
         }
         public void UpdateDetails(string name,string description,Money price)
         {
@@ -120,7 +120,7 @@ namespace LayeredApp.Domain
             Name=name.Trim();
             Description=description.Trim();
             Price = price;
-            UpdateAt= DateTime.UtcNow;
+            UpdatedAt= DateTime.UtcNow;
         }
         public void UpdateStock(int newQuantity)
         {
@@ -128,7 +128,7 @@ namespace LayeredApp.Domain
             // Business rule: Stock cannot be negative
             if(newQuantity < 0) throw new ArgumentException("Stock quantity cannot be negative",nameof(newQuantity));
              StockQuantity=newQuantity;
-             UpdateAt= DateTime.UtcNow;
+             UpdatedAt= DateTime.UtcNow;
         }
         public void DecreaseStock(int quantity)
         {
@@ -141,7 +141,7 @@ namespace LayeredApp.Domain
                 throw new ArgumentException($"Insufficient stock,Available:{StockQuantity},Requested:{quantity}");
 
             StockQuantity -= quantity;
-            UpdateAt= DateTime.UtcNow;
+            UpdatedAt= DateTime.UtcNow;
         }
         public void IncreaseStock(int quantity)
         {
@@ -150,14 +150,14 @@ namespace LayeredApp.Domain
             if (quantity <= 0)
                 throw new ArgumentException("Quantity to increase must be positive", nameof(quantity));
             StockQuantity += quantity;
-            UpdateAt= DateTime.UtcNow;
+            UpdatedAt= DateTime.UtcNow;
         }
         public void Activate()
         {
             //DDD PRINCIPLE:DOMAIN BEHAVIOR
             //Simple domain method that changes state
             IsActive= true;
-            UpdateAt = DateTime.UtcNow; 
+            UpdatedAt = DateTime.UtcNow; 
         }
         public void Deactivate()
         {
@@ -165,7 +165,7 @@ namespace LayeredApp.Domain
             //Simple domaing method that changes state
 
             IsActive= false;
-            UpdateAt = DateTime.UtcNow;
+            UpdatedAt = DateTime.UtcNow;
         }
 
 

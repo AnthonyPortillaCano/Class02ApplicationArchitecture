@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using LayeredApp.Domain;
+﻿using LayeredApp.Domain;
 
 namespace LayeredApp.Infrastructure.Repositories
 {
@@ -23,6 +18,16 @@ namespace LayeredApp.Infrastructure.Repositories
          private readonly List<Product> _products=new();
         private int _nextId = 1;
 
+        // ===========================================
+        // DDD PRINCIPLE: REPOSITORY INITIALIZATION
+        // ===========================================
+        // The repository can initialize with sample data
+        // This is an infrastructure concern, not a domain concern
+        public InMemoryProductRepository()
+        {
+            // Seed some sample data using Money value object
+            SeedData();
+        }
 
 
         //DDD PRINCIPLE : COMMAND METHOD IMPLEMENTATIONS
@@ -80,12 +85,64 @@ namespace LayeredApp.Infrastructure.Repositories
 
         public Task<IEnumerable<Product>> SearchByNameAsync(string name)
         {
-            throw new NotImplementedException();
+            // ===========================================
+            // DDD PRINCIPLE: SEARCH IMPLEMENTATION
+            // ===========================================
+            // Implement a domain-specific search method
+            // The search logic is designed around business needs
+            var searchResults = _products.Where(p =>
+                p.IsActive &&
+                p.Name.Contains(name, StringComparison.OrdinalIgnoreCase));
+            return Task.FromResult(searchResults);
         }
 
         public Task<Product> UpdateAsync(Product product)
         {
-            throw new NotImplementedException();
+            // ===========================================
+            // DDD PRINCIPLE: AGGREGATE UPDATE
+            // ===========================================
+            // Find the existing aggregate root
+            var existingProduct = _products.FirstOrDefault(p => p.Id == product.Id);
+            if (existingProduct == null)
+                throw new ArgumentException($"Product with ID {product.Id} not found");
+
+            // ===========================================
+            // DDD PRINCIPLE: AGGREGATE REPLACEMENT
+            // ===========================================
+            // In a real implementation, EF Core would handle the update
+            // For this demo, we'll just return the product as-is
+            // The domain entity contains all the updated state
+            return Task.FromResult(product);
         }
+        // ===========================================
+        // DDD PRINCIPLE: INFRASTRUCTURE HELPER METHOD
+        // ===========================================
+        // This method is an infrastructure concern
+        // It's used to initialize the repository with sample data
+        // The domain layer doesn't know or care about this method
+        private void SeedData()
+        {
+            // ===========================================
+            // DDD PRINCIPLE: AGGREGATE CREATION WITH VALUE OBJECT
+            // ===========================================
+            // Create aggregate roots using their constructors and Money value object
+            var sampleProducts = new[]
+            {
+                new Product("Laptop", "High-performance laptop for professionals", new Money(1299.99m, "USD"), 15),
+                new Product("Mouse", "Wireless optical mouse", new Money(29.99m, "USD"), 50),
+                new Product("Keyboard", "Mechanical gaming keyboard", new Money(89.99m, "USD"), 25),
+                new Product("Monitor", "27-inch 4K monitor", new Money(399.99m, "USD"), 8),
+                new Product("Headphones", "Noise-cancelling wireless headphones", new Money(199.99m, "USD"), 12),
+                new Product("Webcam", "HD webcam for video conferencing", new Money(79.99m, "USD"), 30),
+                new Product("USB Drive", "64GB USB 3.0 flash drive", new Money(19.99m, "USD"), 100),
+                new Product("Printer", "All-in-one wireless printer", new Money(149.99m, "USD"), 5)
+            };
+
+            foreach (var product in sampleProducts)
+            {
+                _products.Add(product);
+            }
+        }
+
     }
 }

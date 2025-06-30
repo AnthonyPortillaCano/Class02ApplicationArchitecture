@@ -5,6 +5,7 @@ C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\Lay
 C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Domain\obj\Debug\net9.0\LayeredApp.Domain.AssemblyInfoInputs.cache
 C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Domain\obj\Debug\net9.0\LayeredApp.Domain.AssemblyInfo.cs
 C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Domain\obj\Debug\net9.0\LayeredApp.Domain.csproj.CoreCompileInputs.cache
+C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Domain\obj\Debug\net9.0\LayeredApp.Domain.sourcelink.json
 C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Domain\obj\Debug\net9.0\LayeredApp.Domain.dll
 C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Domain\obj\Debug\net9.0\refint\LayeredApp.Domain.dll
 C:\CURSOSNETPERSONAL2025\Class02\Application-Design-and-Layered-Architecture\LayeredApp.Domain\obj\Debug\net9.0\LayeredApp.Domain.pdb
